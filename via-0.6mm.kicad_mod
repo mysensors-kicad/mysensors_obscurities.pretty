@@ -1,0 +1,11 @@
+(module via-0.6mm (layer F.Cu) (tedit 57588281)
+  (tags "0.3mm drill")
+  (fp_text reference REF** (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (fp_text value via-0.6mm (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+    (zone_connect 2))
+)
